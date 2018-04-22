@@ -20,10 +20,6 @@ class OverlapArea {
         this.rec2TopY = rec2TopY;
     }
 
-
-
-
-
     private int distance(int rec1BotXY, int rec1TopXY, int rec2BotXY, int rec2TopXY){
         return (Math.min(rec1TopXY, rec2TopXY) - Math.max(rec1BotXY, rec2BotXY));
     }
